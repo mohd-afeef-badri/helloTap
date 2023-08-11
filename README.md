@@ -1,50 +1,21 @@
 # helloTap - A Simple Demonstration of Tap and HomeBrew Package Creation for MacOS
 
-Welcome to the helloTap repository! Here, I provide you with the `helloTap` binary for MacOS, a simple illustration showcasing the creation of a HomeBrew tap and package. My primary aim is to provide you with a straightforward and insightful example.
-
 ## Introduction
 
-This repository has been created to offer a hands-on experience in the world of HomeBrew, the popular package manager for MacOS. By utilizing this repository, you will gain short insights into the process of creating a tap and packaging software for distribution.
+Welcome to the helloTap repository! Here, I provide you with the `helloTap` binary for MacOS, a simple illustration showcasing the creation of a HomeBrew tap and package. My primary aim is to provide you with a straightforward and insightful example, so that you can install `YourPackage` simply via `bew install YourPackage`.
 
- The installation process via a HomeBrew tap involves the creation of a tap followed by the installation of the `helloTap` package itself. As illustrated below
+This repository has been created to offer a hands-on experience in the world of HomeBrew, the popular package manager for MacOS. We shall do so via a simple C++ based package `helloTap` that simply prints a message on Terminal upon its execution. 
 
-#### Step 1: Tap into the Repository
-
-Open your terminal on MacOS and execute the following command to tap into our repository:
+First let us see how installation of the `helloTap` package works via Homebrew. Open your computer's special talking place, also known as the terminal and execute the following command to tap into our repository and to install it:
 
 ```bash
 brew tap mohd-afeef-badri/hellotap
-```
-
-By tapping into the repository, you establish a direct link to our collection of packaged software.
-
-#### Step 2: Install the `helloTap` Package
-
-Once you have successfully tapped into the repository, proceed to install the `helloTap` package using the following command:
-
-```bash
 brew install hellotap
 ```
 
-This command triggers the installation process, during which the necessary files and dependencies are fetched and configured to set up the `helloTap` package on your system.
+By tapping into the repository, you establish a direct link to our collection of packaged software. This command triggers the installation process, during which the necessary files and dependencies are fetched and configured to set up the `helloTap` package on your system.
 
-### Testing the Installation
-
-To verify the successful installation and functionality of the `helloTap` package, perform a quick test by following these steps:
-
-1. Open a new terminal window.
-2. Type the command `helloTap` and press Enter.
-
-If the installation was completed without errors, you will witness the expected behavior of the `helloTap` package.
-
-### Conclusion
-
-Congratulations! You have successfully installed the `helloTap` package on your MacOS system using HomeBrew. This repository stands as a testament to the simplicity and power of creating taps and packaging software, offering you a valuable learning experience.
-
-I hope that this demonstration serves as an insightful starting point for your exploration of HomeBrew and package management. Should you encounter any issues or have questions, please refer to our repository's issue section for assistance.
-
-Thank you for choosing the `helloTap` repository. Happy coding!
-
+Congratulations! You have successfully installed the `helloTap` package on your MacOS system using HomeBrew. 
 
 # How did I create this package
 
@@ -104,11 +75,11 @@ Create a new GitHub repository named "homebrew-hellotap" under your GitHub accou
 
 ## Step 5: Upload contents to the Repository
 
-Upload the compiled `helloTap` binary to the "homebrew-hellotap" repository. (Note I have uploaded other files here, you can just do with ruby formula file and the binary, main.cpp is not needed)
+Upload the compiled `helloTap` binary, and the formula `helloTap.rb` to the "homebrew-hellotap" repository. (Note I have uploaded other files here, you can just do with ruby formula file and the binary, main.cpp is not needed)
 
-## Step 6: Now will will need to tage the version and Create the release
+## Step 6: Now will will need to tag the version and create the `tar.gz` release
 
-This is easy to do, by this you will have created a tar.gz of your pachkage 
+In the above example I have created a tag `v1.0.0` for my git repository, and then I used GitHub to create a relase for this tag. Hence I was able to generate `tar.gz` for the package that is stored in `https://github.com/mohd-afeef-badri/homebrew-hellotap/releases/download/v1.0.0/hellotap`. 
 
 ## Culmination and Reflection
 
