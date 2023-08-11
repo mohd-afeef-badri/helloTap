@@ -4,13 +4,11 @@ Welcome to the helloTap repository! Here, I provide you with the `helloTap` bina
 
 ## Introduction
 
-The `helloTap` repository has been curated to offer a hands-on experience in the world of HomeBrew, the popular package manager for MacOS. By utilizing this repository, you will gain short insights into the process of creating a tap and packaging software for distribution.
+This repository has been created to offer a hands-on experience in the world of HomeBrew, the popular package manager for MacOS. By utilizing this repository, you will gain short insights into the process of creating a tap and packaging software for distribution.
 
-## Installation Guide
+ The installation process via a HomeBrew tap involves the creation of a tap followed by the installation of the `helloTap` package itself. As illustrated below
 
-Follow these comprehensive steps to seamlessly install and utilize the `helloTap` package on your MacOS system. The installation process involves the creation of a tap followed by the installation of the `helloTap` package itself.
-
-### Step 1: Tap into the Repository
+#### Step 1: Tap into the Repository
 
 Open your terminal on MacOS and execute the following command to tap into our repository:
 
@@ -20,7 +18,7 @@ brew tap mohd-afeef-badri/hellotap
 
 By tapping into the repository, you establish a direct link to our collection of packaged software.
 
-### Step 2: Install the `helloTap` Package
+#### Step 2: Install the `helloTap` Package
 
 Once you have successfully tapped into the repository, proceed to install the `helloTap` package using the following command:
 
@@ -30,7 +28,7 @@ brew install hellotap
 
 This command triggers the installation process, during which the necessary files and dependencies are fetched and configured to set up the `helloTap` package on your system.
 
-## Testing the Installation
+### Testing the Installation
 
 To verify the successful installation and functionality of the `helloTap` package, perform a quick test by following these steps:
 
@@ -39,7 +37,7 @@ To verify the successful installation and functionality of the `helloTap` packag
 
 If the installation was completed without errors, you will witness the expected behavior of the `helloTap` package.
 
-## Conclusion
+### Conclusion
 
 Congratulations! You have successfully installed the `helloTap` package on your MacOS system using HomeBrew. This repository stands as a testament to the simplicity and power of creating taps and packaging software, offering you a valuable learning experience.
 
