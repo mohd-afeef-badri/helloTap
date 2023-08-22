@@ -1,9 +1,8 @@
 class Hellotap < Formula
-  desc "Simple program that prints 'Hello Tap!'"
-  homepage "https://github.com/mohd-afeef-badri/homebrew-hellotap"
-  url "https://codeload.github.com/mohd-afeef-badri/homebrew-hellotap/tar.gz/refs/tags/v1.0.1"
-  sha256 "8f3fc2bc531a91210b97e8e16e1eada38b26c60bb91bc7cbaa66b554f71649b4"
-
+  desc "Simple program that prints 'Hello Brew!'"
+  homepage "https://github.com/mohd-afeef-badri/homebrew-hellobrew"
+  url "https://codeload.github.com/mohd-afeef-badri/homebrew-hellobrew/tar.gz/refs/tags/v1.0.2"
+  sha256 "baa128701816989f65106f6efb4f4ccd44bbe65c30e989310a7f81070576942b"
   def install
     bin.install "helloTap"
   end
