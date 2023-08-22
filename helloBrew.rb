@@ -1,4 +1,4 @@
-class Hellotap < Formula
+class Hellobrew < Formula
   desc "Simple program that prints 'Hello Brew!'"
   homepage "https://github.com/mohd-afeef-badri/homebrew-hellobrew"
   url "https://codeload.github.com/mohd-afeef-badri/homebrew-hellobrew/tar.gz/refs/tags/v1.0.2"
