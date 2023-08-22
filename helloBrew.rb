@@ -4,10 +4,10 @@ class Hellobrew < Formula
   url "https://codeload.github.com/mohd-afeef-badri/homebrew-hellobrew/tar.gz/refs/tags/v1.0.2"
   sha256 "1e197c0af42418ad0bdaec26bf56a253d1cd946b881b7ea5f646d172f960fbd1"
   def install
-    bin.install "helloTap"
+    bin.install "helloBrew"
   end
 
   test do
-    system "#{bin}/helloTap"
+    system "#{bin}/helloBrew"
   end
 end
